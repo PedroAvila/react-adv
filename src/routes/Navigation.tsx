@@ -5,7 +5,6 @@ import {
   Switch,
 } from "react-router-dom";
 
-import { ShoppingPage } from "../02-component-patterns/pages/ShoppingPage";
 import logo from "../logo.svg";
 
 export const Navigation = () => {
@@ -42,9 +41,7 @@ export const Navigation = () => {
           <Route path="/users">
             <h1>Users</h1>
           </Route>
-          <Route path="/">
-            <ShoppingPage />
-          </Route>
+          <Route path="/"></Route>
         </Switch>
       </div>
     </Router>
